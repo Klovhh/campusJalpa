@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">InstaUAZ</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="no_tienes_cuenta">No tienes cuenta?</string>
+    <string name="registrate"><u>REGISTRATE</u></string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="registrarse2">Registrarse</string>
+    <string name="re_ingresar_contrase_a">Re-Ingresar contraseña</string>
+    <string name="contrase_a2">Contraseña</string>
+    <string name="contrase_a3">Contraseña</string>
+    <string name="n_mero_de_tel_fono">Número de teléfono</string>
+    <string name="bienvenido">BIENVENIDO!</string>
+    <string name="aqui_deja_tu_mensaje">Agrega un comentario…</string>
+    <string name="tomar_foto">Tomar Foto!</string>
+    <string name="subir">SUBIR!</string>
+    <string name="precio_tomar_foto_escribe_tu_nombre_n_un_mensaje_y_preciona_subir">Precio tomar foto, escribe tu nombre,\n un mensaje y preciona SUBIR</string>
+    <string name="usuariotexto">USUARIO:</string>
+    <string name="configuraci_n_de_cuenta">Configuración de cuenta</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar_cuenta">Eliminar cuenta</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="dialgo_conf">¿Estás seguro que deseas borrar tu cuenta y todas tus publicaciones?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+</resources>

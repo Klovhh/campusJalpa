@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/numeroTxf"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_phone_login"
+        android:ems="10"
+        android:hint="@string/n_mero_de_tel_fono"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numeroLbl" />
+
+    <TextView
+        android:id="@+id/numeroLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/n_mero_de_tel_fono"
+        android:textColor="#32435F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreUsuarioTxf" />
+
+    <EditText
+        android:id="@+id/contrasenaTxf3"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_password_login"
+        android:ems="10"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RecontrasenaLbl" />
+
+    <TextView
+        android:id="@+id/RecontrasenaLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/re_ingresar_contrase_a"
+        android:textColor="#32435F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contrasenaTxf"
+        />
+
+    <TextView
+        android:id="@+id/IniciarSeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/registrarse2"
+        android:textColor="#32435F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/usuarioLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/usuario"
+        android:textColor="#32435F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IniciarSeLbl" />
+
+    <EditText
+        android:id="@+id/nombreUsuarioTxf"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_user_login"
+        android:ems="10"
+        android:hint="@string/nombre_de_usuario"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usuarioLbl" />
+
+    <TextView
+        android:id="@+id/contrasenaLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/contrase_a"
+        android:textColor="#32435F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numeroTxf" />
+
+    <EditText
+        android:id="@+id/contrasenaTxf"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_password_login"
+        android:ems="10"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contrasenaLbl" />
+
+    <Button
+        android:id="@+id/iniciarSeBtn"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#A9823D"
+        android:onClick="RegUserForLogin"
+        android:text="@string/registrarse"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contrasenaTxf3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
